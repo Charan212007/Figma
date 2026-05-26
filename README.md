@@ -1,431 +1,80 @@
 # Ex08 Event Registration Web Application
-## Date:
+# Date:08-02-2026
+# AIM:
+To design, develop and deploy a web application for event registration.
 
-## AIM:
-To design, develop and deploy a web application for event registration using Figma UI tool.
+# DESIGN STEPS:
+## Step 1:
+Create a new frame.
 
-## UI DESIGN TOOL:
+## Step 2:
+Select any one preset size of your choice.
+
+## Step 3:
+Select the shapes you need.
+
+## Step 4:
+Import images as needed.
+
+## Step 5:
+Create pages based on your need and link them.
+
+## Step 6:
+Validate the HTML and CSS code.
+
+## Step 6:
+Publish the website in the given URL.
+
+# DESIGN TOOL:
 Figma
 
-## DESIGN STEPS:
-
-### Step 1:
-Use frames to represent screens or sections.
-
-### Step 2:
-Add column grids for consistent spacing and alignment.
-
-### Step 3:
-Insert shapes, text, buttons, and icons.
-
-### Step 4:
-Use Auto Layout for flexible, responsive design.
-
-### Step 5:
-Define color, text, and effect styles globally for consistency.
-
-### Step 6:
-Name layers logically and group related elements.
-
-### Step 6:
-Link frames to show navigation or interactions.
-
-### Step 7:
-Select the specific frame while generating code using Anima plugin.
-
-## CODE:
+# CODE:
+## HOME PAGE
 ```
-index.html
-
-
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Restaurant</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<header>
-<nav>
-    <ul style="list-style: none; display: flex; gap: 20px; justify-content: center; padding: 0;">
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="team.html">Team</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <center>
-    <h1 style="font-family: cursive;"><i>Italiano Restaurant</i></h1>
-</center>
-</header>
-<body style="background-image: url(bg1.jpg);"> 
-    <section id="about" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; padding: 20px;">
-    
-   
-    
-        <h1 style="font-family: cursive;"><i>About Us</i></h1>
-        
-        <h3><b>Over 3 Decades,<i>Italiano Restaurant</i>has pioneered Italian cuisine in India. With 50 outlets in 4 countries, we are India’s largest home grown italian brand bringing you a delicious menu of Pizzas, Pastas, Appetizers, Cheeses, Wines & much more.
-
-            Italian food is simple yet sophisticated, using few ingredients to make a dish so flavourful you keep coming back for more. Inspired by Italy’s finest family chefs, we bring you the warmth & love of Italian Cuisine directly to your home.</b></h3>
-    </section>
-    <div class="image-row">
-        <center>
-        <img src="menu1.jpg" alt="Abt" width="420" height="250">
-    </center>
-    </div>
-    
-
-</body>
-</html>
-
-menu.html
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Menu</title>
-    <link rel="stylesheet" href="styles.css">
-    <header>
-        <nav>
-            <ul style="list-style: none; display: flex; gap: 20px; justify-content: center; padding: 0;">
-                <li><a href="index.html">About us</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <center>
-            <h1>Our Menu</h1>
-        </center>
-    </header>
-</head>
-<body style="background-image: url(bg3.jpg);"> 
-<section style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; padding: 20px;">
-
-    <div style="text-align: center;">
-      <img src="menu2.jpg" alt="" width="250">
-      <h1 style="font-family: cursive;"><i>Spicy paneer tikka</i></h1>
-    </div>
-  
-    <div style="text-align: center;">
-      <img src="menu3.jpg" alt="" height="190" width="250">
-      <h1 style="font-family: cursive;"><i>Chettinad chicken</i></h1>
-    </div>
-  
-    <div style="text-align: center;">
-      <img src="menu4.jpg" alt="" height="190" width="250">
-      <h1 style="font-family: cursive;"><i>Mutton chuka</i></h1>
-    </div>
-  
-    
-  
-    <div style="text-align: center;">
-      <img src="menu7.jpg" alt="" height="190" width="250">
-      <h1 style="font-family: cursive;"><i>Chicken 65</i></h1>
-
-    </div>
-    <div style="text-align: center;">
-        <img src="menu11.jpg" alt="" height="190" width="250">
-        <h1 style="font-family: cursive;"><i>Burger</i></h1>
-      </div>
-      <div style="text-align: center;">
-        <img src="menu22.jpg" alt="" height="190" width="250">
-        <h1 style="font-family: cursive;"><i>Donuts</i></h1>
-      </div>
-      <div style="text-align: center;">
-        <img src="menu44.jpg" alt="" height="190" width="250">
-        <h1 style="font-family: cursive;"><i>Cheese sandwich</i></h1>
-      </div>
-      <div style="text-align: center;">
-        <img src="menu55.jpg" alt="" height="190" width="250">
-        <h1 style="font-family: cursive;"><i>Pasta</i></h1>
-      </div>
-      <div style="text-align: center;">
-        <img src="menu66.avif" alt="" height="190" width="250">
-        <h1 style="font-family: cursive;"><i>Maagi</i></h1>
-      </div>
-      <div style="text-align: center;">
-        <img src="menu77.jpg" alt="" height="190" width="250">
-        <h1 style="font-family: cursive;"><i>Fruit salad</i></h1>
-      </div>
-  
-  </section>
-  </body>
-
-
-  team.html
-
-  <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Team</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<header>
-    <nav>
-        <ul style="list-style: none; display: flex; gap: 20px; justify-content: center; padding: 0;">
-            <li><a href="index.html">About us</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <center>
-        <h1 style="font-family: cursive;"><i>Our Team</i></h1>
-    </center>
-</header>
-<br><br><br><br><br>
-<body style="background-image: url(bg7.jpg);">
-    
-    <section>
-        <div style="display: flex; justify-content: center; gap: 30px;">
-          <div>
-            <img src="myimage.jpeg" alt="Owner" height="200" width="150">
-            <p><b>KESHAVARTHINI</b></p>
-            <h3>(Manager)</h3>
-          </div>
-          <div>
-            <img src="fri2.png" alt="Ops" height="200" width="150">
-            <p><b>MANOJ</b></p>
-            <h3>(Chef)</h3>
-          </div>
-          <div>
-            <img src="fri3.jpg" alt="W" width="250">
-            <p><b>BALAJI</b></p>
-            <h3>(Assistant Chef)</h3>
-          </div>
-        </div>
-      </section>
-</body>
-</html>
-
-
-
-contact.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body bgcolor="silver">
-    <header>
-        <nav>
-            <ul style="list-style: none; display: flex; gap: 20px; justify-content: center; padding: 0;">
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-        </nav>
-        <center>
-            <h1>Contact Us</h1>
-        </center>
-    </header>
-
-    <section>
-        <center>
-        <h2>Email: k56892006@gmail.com</h2>
-        <h2>Phone: 9342603456</h2>
-        <h2>Address: 11, Sethurayan Nagar, Kanchipuram</h2>
-    </center>
-    </section>
-
-    <img src="contact.jpg" width="100%" height="350px" style="float: left; margin: 20px; border-radius: 8px;">
-     <br><br><br><br><br><br><br><br><br><br>
-     <center>
-    <footer>
-        <h4>By B KESHAVARTHINI (2122240401583)</h4>
-    </footer>
-</center>
-</body>
-</html>
-
-
-
-index.css
-
-body {
-    background-image: url('bg2.jpg'); /* General background image */
-    background-size: cover; /* Cover the entire body */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    background-color: #f8f8f8;
-    padding: 10px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-nav ul li a:hover {
-    color: orange;
-}
-
-#about {
-    background-color: orange;
-    padding: 20px;
-    margin: 20px;
-}
-
-#about h2 {
-    color: #fff;
-}
-
-#about img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    width: 420px;
-    height: 250px;
-}
-
-.image-row {
-    background-image: url('bg1.jpg'); /* Menu background image */
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px; /* Add padding for spacing */
-    margin-top: 20px; /* Add margin to separate from the About Us section */
-}
-
-.image-row img { /* Style for the food image within the image-row */
-    display: block; /* Make the image a block-level element */
-    margin: 0 auto;  /* Center the image horizontally */
-    width: auto;     /* Let the width adjust automatically */
-    height: auto;    /* Let the height adjust automatically */
-    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
-    max-height: 100%;/* Ensure the image doesn't exceed the container's height */
-}
-
-
-contact.css
-
-body {
-    background: linear-gradient(to right, #e0f7fa, #ffffff);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    background-color: #00796b;
-    color: white;
-    padding: 30px 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #004d40;
-    margin: 0;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ffcc00;
-}
-
-section {
-    background-color: white;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-footer {
-    background-color: #00796b;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-
-img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    max-width: 100%;
-}
-
-
-style.css
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; /* or center */
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap; /* allows wrapping if screen is small */
-  }
-  
-  .menu-item {
-    text-align: center;
-    margin: 10px;
-  }
-  
-  .menu-item img {
-    width: 150px;  /* adjust as needed */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .menu-item p {
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: 10px;
-  }
+<div style="width: 400px; height: 640px; position: relative; background: #F6BCF7">
+  <img style="width: 400px; height: 60.16px; left: 0px; top: 13px; position: absolute" src="https://via.placeholder.com/400x60" />
+  <div style="left: 20px; top: 320px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">Register here:<br/></div>
+  <img style="width: 383.64px; height: 80px; left: 8px; top: 133px; position: absolute" src="https://via.placeholder.com/384x80" />
+  <div style="width: 225px; height: 60px; left: 70px; top: 434px; position: absolute; background: #9D8383"></div>
+  <div style="left: 108px; top: 446px; position: absolute; color: white; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">REGISTER </div>
+  <div style="width: 46px; height: 0px; left: 200px; top: 369px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 2px black solid"></div>
+</div>
 ```
+## EVENTS PAGE
+```
+<div style="width: 360px; height: 640px; position: relative; background: #F3F57F">
+  <div style="width: 247px; height: 69px; left: 21px; top: 98px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">EVENTS</div>
+  <img style="width: 68px; height: 102px; left: 263px; top: 187px; position: absolute" src="https://via.placeholder.com/68x102" />
+  <div style="left: 21px; top: 217px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">DANCING<br/></div>
+  <img style="width: 90px; height: 81.13px; left: 22px; top: 350px; position: absolute" src="https://via.placeholder.com/90x81" />
+  <div style="left: 204px; top: 372px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">SINGING<br/></div>
+  <div style="left: 22px; top: 507px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">PAINTING<br/></div>
+  <img style="width: 123px; height: 94px; left: 227px; top: 485px; position: absolute" src="https://via.placeholder.com/123x94" />
+  <img style="width: 354px; height: 54px; left: 3px; top: 14px; position: absolute" src="https://via.placeholder.com/354x54" />
+</div>
+```
+## REGISTRATION PAGE
+```
+<div style="width: 360px; height: 640px; position: relative; background: #B2F0DA">
+  <div style="left: 20px; top: 101px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">REGISTRATION FORM<br/></div>
+  <div style="width: 204px; height: 44px; left: 20px; top: 187px; position: absolute; background: #FAF0F0"></div>
+  <div style="left: 26px; top: 190px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">Name:<br/></div>
+  <div style="width: 204px; height: 44px; left: 19px; top: 312px; position: absolute"></div>
+  <div style="width: 204px; height: 44px; left: 20px; top: 334px; position: absolute; background: #FAF0F0"></div>
+  <div style="left: 26px; top: 334px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">Dept:<br/></div>
+  <div style="width: 204px; height: 44px; left: 19px; top: 262px; position: absolute; background: #FAF0F0"></div>
+  <div style="width: 204px; height: 44px; left: 19px; top: 409px; position: absolute; background: #FAF0F0"></div>
+  <div style="left: 20.85px; top: 412px; position: absolute; transform: rotate(1.35deg); transform-origin: 0 0; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">Events:</div>
+  <div style="left: 26px; top: 262px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">Reg No:</div>
+  <div style="width: 204px; height: 44px; left: 20px; top: 481px; position: absolute; background: #FAF0F0"></div>
+  <div style="left: 26px; top: 481px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">E-mail ID:</div>
+  <div style="width: 240px; height: 67px; left: 51px; top: 540px; position: absolute; background: #D9D9D9"></div>
+  <div style="left: 100px; top: 559px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 800; word-wrap: break-word">REGISTER<br/></div>
+  <img style="width: 374px; height: 56px; left: -7px; top: 11px; position: absolute" src="https://via.placeholder.com/374x56" />
+</div>
+```
+# OUTPUT:
+<img width="1037" height="560" alt="image" src="https://github.com/user-attachments/assets/c1dfb667-3434-4465-9bcb-e0c128ac17a4" />
 
-
-## OUTPUT:
-![Screenshot (127)](https://github.com/user-attachments/assets/9d68ee72-42f8-4af8-b7ee-004dbfafd31f)
-![Screenshot (128)](https://github.com/user-attachments/assets/3b229383-49e3-4d7c-a67a-ed74da70bdd9)
-
-
-## RESULT:
-The program to design, develop and deploy a web application for event registration using Figma UI tool is completed successfully.
+# RESULT:
+The program to design, develop and deploy a web application for event registration is completed successfully.
